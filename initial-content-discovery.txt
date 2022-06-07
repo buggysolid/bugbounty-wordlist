@@ -1,4 +1,5 @@
 api-docs
+assets
 BitKeeper
 .bzr
 .chef
@@ -10,6 +11,8 @@ debug
 debugger
 docs
 .env
+fixtures3.json
+fixtures3.yaml
 .git
 grafana
 graphiql
@@ -20,17 +23,21 @@ health
 kustomization.yaml
 main.tf
 metrics
+notifications
 password.txt
 php.ini
 prometheus.yml
 script
 secret.yaml
 settings
+spec3.json
+spec3.yaml
 .svn
 swagger
 swagger.json
 .terraform
 username.txt
+user-state
 uwsgi.ini
 v1
 v2
