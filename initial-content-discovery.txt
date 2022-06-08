@@ -20,6 +20,7 @@ grapql
 habitat/plan.sh
 health
 .hg
+.kube
 kustomization.yaml
 main.tf
 metrics
