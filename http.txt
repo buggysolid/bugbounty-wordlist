@@ -1,4 +1,6 @@
+api
 api-docs
+api/v1
 assets
 BitKeeper
 .bzr
@@ -6,6 +8,8 @@ BitKeeper
 .chef/credentials
 .config
 config
+config/credentials.yml.enc
+credentials.yml
 ._darcs
 debug
 debugger
@@ -21,6 +25,8 @@ habitat/plan.sh
 health
 .hg
 .kube
+.kube/config
+kube_config_cluster.yaml
 kustomization.yaml
 main.tf
 metrics
@@ -39,7 +45,11 @@ swagger.json
 .terraform
 username.txt
 user-state
+user/v1/profile
+user/v1/session
 uwsgi.ini
 v1
+v1/api
 v2
+v2/api
 v2/swagger.json
