@@ -1,6 +1,9 @@
+admin
+airflow.cfg
 api
 api-docs
 api/v1
+/api/v1/config
 assets
 BitKeeper
 .bzr
@@ -9,6 +12,7 @@ BitKeeper
 .config
 config
 config/credentials.yml.enc
+config/slack.yml
 credentials.yml
 ._darcs
 debug
@@ -28,7 +32,9 @@ health
 .kube/config
 kube_config_cluster.yaml
 kustomization.yaml
+login
 main.tf
+master.key
 metrics
 notifications
 password.txt
@@ -53,3 +59,4 @@ v1/api
 v2
 v2/api
 v2/swagger.json
+version
