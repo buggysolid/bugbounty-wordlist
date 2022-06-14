@@ -4,10 +4,16 @@ b
 build
 ci
 corp
+data
 dev
+eks
+experimental
 git
 jira
 kibana
 oauth
+ops
+prod
+production
 q
 staging
