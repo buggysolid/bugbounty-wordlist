@@ -15,12 +15,14 @@ authentication
 authorization
 BitKeeper
 .bzr
+callback
 .chef
 .chef/credentials
 .config
 config
 config/credentials.yml.enc
 config/slack.yml
+core
 credentials.yml
 ._darcs
 debug
@@ -34,6 +36,7 @@ grafana
 graphiql
 grapql
 habitat/plan.sh
+header
 health
 .hg
 js
@@ -47,8 +50,10 @@ login
 main.tf
 manifest.json
 master.key
+me
 metrics
 notifications
+oauth-callback
 password.txt
 php.ini
 prometheus.yml
@@ -64,6 +69,8 @@ static
 swagger
 swagger.json
 .terraform
+user
+user-info
 username.txt
 user-state
 user/v1/profile
@@ -75,6 +82,8 @@ v2
 v2/api
 v2/swagger.json
 v3
+v4
+v5
 version
 .well-known
 .well-known/jwks.json
