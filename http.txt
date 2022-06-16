@@ -10,6 +10,9 @@ api/v1
 api/v2/users/me
 api/v3/
 assets
+auth
+authentication
+authorization
 BitKeeper
 .bzr
 .chef
@@ -34,6 +37,7 @@ habitat/plan.sh
 health
 .hg
 js
+jwks
 jwks.json
 .kube
 .kube/config
@@ -74,3 +78,5 @@ v3
 version
 .well-known
 .well-known/jwks.json
+.well-known/oauth-authorization-server
+.well-known/openid-configuration
