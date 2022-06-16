@@ -17,3 +17,4 @@ prod
 production
 q
 staging
+ws
