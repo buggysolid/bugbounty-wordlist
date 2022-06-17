@@ -34,6 +34,7 @@ fixtures3.yaml
 .git
 grafana
 graphiql
+graphql
 grapql
 habitat/plan.sh
 header
@@ -54,9 +55,12 @@ me
 metrics
 notifications
 oauth-callback
+openid
+openid/register
 password.txt
 php.ini
 prometheus.yml
+registration
 script
 .secret
 .secrets
@@ -89,3 +93,4 @@ version
 .well-known/jwks.json
 .well-known/oauth-authorization-server
 .well-known/openid-configuration
+/.well-known/openid-configuration

@@ -9,6 +9,7 @@ dev
 eks
 experimental
 git
+graphql
 jira
 kibana
 oauth
