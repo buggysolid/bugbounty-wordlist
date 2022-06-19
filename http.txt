@@ -94,3 +94,5 @@ version
 .well-known/oauth-authorization-server
 .well-known/openid-configuration
 /.well-known/openid-configuration
+AppConfig
+asset-manifest.json
