@@ -9,3 +9,6 @@ sourceMapping
 token
 xhr
 XMLHttpRequest
+innerHTML
+window.
+getElementById
