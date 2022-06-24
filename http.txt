@@ -35,7 +35,6 @@ fixtures3.yaml
 grafana
 graphiql
 graphql
-grapql
 habitat/plan.sh
 header
 health
