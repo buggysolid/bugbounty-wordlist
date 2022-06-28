@@ -1,0 +1,4 @@
+X-Original-URL
+X-Rewrite-URL
+X-Forwarded-For
+X-Forwarded-Host
