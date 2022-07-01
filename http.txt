@@ -74,6 +74,7 @@ registration
 robots.txt
 script
 secret.yaml
+server-status
 settings
 spec3.json
 spec3.yaml
