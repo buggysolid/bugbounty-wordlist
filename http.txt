@@ -18,8 +18,10 @@
 .well-known/openid-configuration
 /.well-known/openid-configuration
 /api/v1/config
+1.0
 AppConfig
 BitKeeper
+_
 admin
 airflow.cfg
 ajax
