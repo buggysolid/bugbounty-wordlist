@@ -30,7 +30,9 @@ android_manifest.json
 api
 api-docs
 api/v1
+api/v2
 api/v2/users/me
+api/v3
 api/v3/
 asset-manifest.json
 assets
