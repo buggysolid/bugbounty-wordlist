@@ -29,6 +29,8 @@ ajax/metrics
 android_manifest.json
 api
 api-docs
+api/rest
+api/rest/v1
 api/v1
 api/v2
 api/v2/users/me
@@ -75,6 +77,7 @@ password.txt
 php.ini
 prometheus.yml
 registration
+rest
 robots.txt
 script
 secret.yaml
