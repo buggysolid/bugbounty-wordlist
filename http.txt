@@ -19,6 +19,8 @@
 /.well-known/openid-configuration
 /api/v1/config
 1.0
+1.1
+2.2
 AppConfig
 BitKeeper
 _
