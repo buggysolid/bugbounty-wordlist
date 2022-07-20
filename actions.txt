@@ -12,6 +12,8 @@ new
 password-change
 password-reset
 register
+retrieve
+retrieve_or_create
 search
 send-verification-email
 show
