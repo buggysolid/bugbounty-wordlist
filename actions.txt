@@ -8,6 +8,7 @@ discover
 do-search
 incoming
 lookup
+new
 password-change
 password-reset
 register
@@ -17,5 +18,6 @@ show
 signin
 signup
 update
+update-metric
 verify
 vote
