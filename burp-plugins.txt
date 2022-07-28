@@ -1,2 +1,2 @@
-JWT Editor
-Espresso
+https://github.com/PortSwigger/oauth-scan
+https://github.com/minamo7sen/burp-JS-Miner
