@@ -19,3 +19,16 @@ production
 q
 staging
 ws
+eu-west-1
+us-east-1
+ams
+iad
+sfo
+lon
+fra
+ams1
+dub2
+sfo1
+nyc1
+lon1
+fra1
