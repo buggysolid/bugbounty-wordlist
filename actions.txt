@@ -1,11 +1,13 @@
 add
-auth-user-info
 authorize
+auth-user-info
 create
 delete
 destroy
 discover
+displayPage
 do-search
+events
 incoming
 lookup
 new
@@ -19,6 +21,9 @@ send-verification-email
 show
 signin
 signup
+suggest
+surveys
+trends
 update
 update-metric
 verify
