@@ -9,6 +9,7 @@ displayPage
 do-search
 events
 incoming
+item_list
 lookup
 new
 password-change

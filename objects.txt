@@ -29,6 +29,7 @@ configuration
 coupons
 credit_report
 customers
+detail
 direct_v2
 documentation
 documents
@@ -77,6 +78,8 @@ page-templates
 payment
 payment_methods
 payments
+policy
+post
 preferences
 profile
 projects
@@ -86,6 +89,7 @@ public
 quotes
 realms
 realtime
+recommend
 refresh
 refresh_access_token
 relationships
@@ -98,6 +102,7 @@ search
 seo
 session
 settings
+share
 shopping
 shows
 snapshots
