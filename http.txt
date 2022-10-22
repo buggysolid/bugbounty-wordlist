@@ -116,6 +116,8 @@ elements
 enduserapp
 en-us/rest
 .env
+example
+examples
 fixtures3.json
 fixtures3.yml
 .git
@@ -247,4 +249,5 @@ version
 .well-known/openid-configuration
 /.well-known/openid-configuration
 .well-known/uma2-configuration
+wp-content/debug.log
 zk_test
