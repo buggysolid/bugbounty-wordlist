@@ -36,6 +36,7 @@ service
 show
 signin
 signup
+sso-settings
 suggest
 surveys
 transaction
