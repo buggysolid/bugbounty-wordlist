@@ -141,6 +141,12 @@ metrics
 mobile
 notifications
 oauth
+oauth2/auth
+oauth2/callback
+oauth2/sign_in
+oauth2/sign_out
+oauth2/start
+oauth2/userinfo
 oauth-callback
 oauth/discovery/keys
 oauth/introspection
@@ -156,6 +162,7 @@ password.txt
 permissions
 personal
 php.ini
+ping
 platform/api/
 probe
 prod
@@ -165,6 +172,7 @@ proxy
 public
 rapidoc
 Readme.md
+redoc
 redocs
 registration
 rest
@@ -229,7 +237,6 @@ version
 .well-known/matrix
 .well-known/oauth-authorization-server
 .well-known/openid-configuration
-/.well-known/openid-configuration
 .well-known/uma2-configuration
 wp-content/debug.log
 zk_test
