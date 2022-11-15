@@ -25,6 +25,7 @@ api/campaigns
 api/client-data
 api/configp
 api-docs
+apidocs
 api/emails
 api/file
 api/invite
@@ -174,6 +175,7 @@ rapidoc
 Readme.md
 redoc
 redocs
+register
 registration
 rest
 rest/api
@@ -190,6 +192,8 @@ server-status
 service
 sessions
 settings
+signin
+signup
 spec3.json
 spec3.yml
 spec.json
