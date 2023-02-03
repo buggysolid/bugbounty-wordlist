@@ -1,0 +1,1 @@
+emulator -avd Pixel_6_API_28 -gpu swiftshader_indirect -writable-system -no-snapshot-load
