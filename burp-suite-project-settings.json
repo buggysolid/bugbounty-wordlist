@@ -37,7 +37,7 @@
                 "capture_sequencer":true,
                 "capture_target":true
             },
-            "capture_enabled":false,
+            "capture_enabled":true,
             "capture_memory_limit_mb":100,
             "limit_request_response_size":{
                 "capture_requests_up_to":"1MB",
@@ -651,15 +651,7 @@
         "scope":{
             "advanced_mode":true,
             "exclude":[],
-            "include":[
-                {
-                    "enabled":true,
-                    "file":"^/LoggerPlusPlus.*",
-                    "host":"^project-extension-preference-store-do-not-delete$",
-                    "port":"^65535$",
-                    "protocol":"https"
-                }
-            ]
+            "include":[]
         }
     }
 }
