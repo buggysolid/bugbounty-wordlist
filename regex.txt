@@ -1,3 +1,1 @@
-(graphql\?\w+|\{\s*\"query\"\:|\s*\"operationName\"|\s*\"variables\")
-(query\s+\b[A-Z]|kind\:\"\w+\")
 (api|\/api\/|\/v[1-10]\/|\/\d*\.\d*\/)
