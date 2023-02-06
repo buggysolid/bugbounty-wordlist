@@ -1,9 +1,15 @@
+_
+1
 1.0
 1.1
+1.5
+2
 2.0
 2.2
 2fa
+6
 Account/Login
+accounts
 admin
 airflow.cfg
 ajax
@@ -12,6 +18,7 @@ ajax/legacy_graphql
 ajax/metrics
 ajax/settings
 android_manifest.json
+_api
 api
 API
 api/1
@@ -44,6 +51,7 @@ api/public/v2
 api/rest
 api/rest/v1
 api/restv1
+apis
 apispec.json
 api/t
 api/track
@@ -118,12 +126,14 @@ grafana/grafana.ini
 grafana.ini
 graph
 graphiql
+_graphql
 graphql
 graphs
 gw-web/api/
 habitat/plan.sh
 header
 health
+i
 jenkins
 js
 jwks
@@ -232,6 +242,7 @@ v2/swagger.json
 v3
 v4
 v5
+v9
 version
 .well-known
 .well-known/enterprise-network-security

@@ -46,7 +46,7 @@
                     "errors":"ui",
                     "extension_file":"bapps/0ab7a94d8e11449daaf0fb387431225b/build/libs/burp-JS-Miner-all.jar",
                     "extension_type":"java",
-                    "loaded":false,
+                    "loaded":true,
                     "name":"JS Miner",
                     "output":"ui"
                 },
@@ -128,16 +128,6 @@
                     "extension_type":"java",
                     "loaded":false,
                     "name":"HTTP Request Smuggler",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":7,
-                    "bapp_uuid":"c9fb79369b56407792a7104e3c4352fb",
-                    "errors":"ui",
-                    "extension_file":"bapps/c9fb79369b56407792a7104e3c4352fb/target/burp-vulners-scanner-1.2.jar",
-                    "extension_type":"java",
-                    "loaded":true,
-                    "name":"Software Vulnerability Scanner",
                     "output":"ui"
                 },
                 {
@@ -401,7 +391,7 @@
                     "wrap_text":false
                 },
                 {
-                    "open_by_default":false,
+                    "open_by_default":true,
                     "show":true,
                     "type":"request_headers",
                     "wrap_text":false
