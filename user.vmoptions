@@ -4,4 +4,11 @@
 # To include another file, uncomment the following line:
 # -include-options [path to other .vmoption file]
 
--include-options user.vmoptions
+-XX:+UseG1GC
+-Xms512m
+-Xmx8096m
+-Dsun.java2d.noddraw=true
+-Dsun.java2d.d3d=false
+-Dswing.useflipBufferStrategy=True
+-Dsun.java2d.ddforcevram=true
+-Dsun.java2d.ddblit=false
