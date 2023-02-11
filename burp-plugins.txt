@@ -1,10 +1,7 @@
 Turbo Intruder
 HTTP Request Smuggler
-Collaborator Everywhere
 JWT Editor
 Param Miner
 UUID Detector
 JS Miner
-CSRF Scanner
 OAUTH Scan
-InQL
