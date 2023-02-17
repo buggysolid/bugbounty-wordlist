@@ -81,16 +81,6 @@
                     "output":"ui"
                 },
                 {
-                    "bapp_serial_version":6,
-                    "bapp_uuid":"60f172f27a9b49a1b538ed414f9f27c3",
-                    "errors":"ui",
-                    "extension_file":"bapps/60f172f27a9b49a1b538ed414f9f27c3/build/libs/csrf-scanner-all.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"CSRF Scanner",
-                    "output":"ui"
-                },
-                {
                     "bapp_serial_version":17,
                     "bapp_uuid":"a7609ae2055342e9b6ffcf7cbcacf019",
                     "errors":"ui",
@@ -111,16 +101,6 @@
                     "output":"ui"
                 },
                 {
-                    "bapp_serial_version":3,
-                    "bapp_uuid":"7c1ca94a61474d9e897d307c858d52f0",
-                    "errors":"ui",
-                    "extension_file":"bapps/7c1ca94a61474d9e897d307c858d52f0/build/libs/web-cache-deception-scanner-all.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Web Cache Deception Scanner",
-                    "output":"ui"
-                },
-                {
                     "bapp_serial_version":37,
                     "bapp_uuid":"aaaa60ef945341e8a450217a54a11646",
                     "errors":"ui",
@@ -128,16 +108,6 @@
                     "extension_type":"java",
                     "loaded":false,
                     "name":"HTTP Request Smuggler",
-                    "output":"ui"
-                },
-                {
-                    "bapp_serial_version":20,
-                    "bapp_uuid":"470b7057b86f41c396a97903377f3d81",
-                    "errors":"ui",
-                    "extension_file":"bapps/470b7057b86f41c396a97903377f3d81/releases/LoggerPlusPlus.jar",
-                    "extension_type":"java",
-                    "loaded":false,
-                    "name":"Logger++",
                     "output":"ui"
                 }
             ],
@@ -176,7 +146,8 @@
                 "show_progress":true
             },
             "embedded_browser":{
-                "allow_saving_browser_settings":true
+                "allow_saving_browser_settings":true,
+                "browser_data_directory":""
             },
             "enable_proxy_interception_at_startup":"never",
             "exceptions_log_directory":"",
@@ -224,10 +195,6 @@
                 {
                     "action":"switch_to_logger",
                     "hotkey":"Ctrl+Shift+L"
-                },
-                {
-                    "action":"switch_to_project_options",
-                    "hotkey":"Ctrl+Shift+O"
                 },
                 {
                     "action":"go_to_previous_tab",
@@ -364,11 +331,11 @@
                 "regex_by_default":false
             },
             "inspector_display_mode":"auto-expand",
-            "inspector_position":"left",
+            "inspector_position":"right",
             "inspector_widget_configurations":[
                 {
-                    "open_by_default":true,
-                    "show":true,
+                    "open_by_default":false,
+                    "show":false,
                     "type":"request_attributes",
                     "wrap_text":false
                 },
@@ -391,14 +358,14 @@
                     "wrap_text":false
                 },
                 {
-                    "open_by_default":true,
+                    "open_by_default":false,
                     "show":true,
                     "type":"request_headers",
                     "wrap_text":false
                 },
                 {
                     "open_by_default":false,
-                    "show":true,
+                    "show":false,
                     "type":"response_headers",
                     "wrap_text":false
                 }
@@ -461,7 +428,7 @@
                     "type":"render"
                 },
                 {
-                    "show":false,
+                    "show":true,
                     "type":"headers",
                     "wrap_text":false
                 }
@@ -474,7 +441,7 @@
         },
         "proxy":{
             "http_history":{
-                "sort_column":"comment",
+                "sort_column":"#",
                 "sort_order":"descending"
             },
             "websockets_history":{

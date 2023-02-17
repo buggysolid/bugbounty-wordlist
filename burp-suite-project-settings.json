@@ -55,13 +55,22 @@
             },
             "by_file_extension":{
                 "hide_items":[
+                    "gif",
+                    "jpg",
+                    "png",
+                    "css",
                     "js",
                     "gif",
                     "jpg",
                     "png",
-                    "css"
+                    "css",
+                    "svg",
+                    "tff",
+                    "woff2",
+                    "webp",
+                    "ico"
                 ],
-                "hide_specific":false,
+                "hide_specific":true,
                 "show_items":[
                     "asp",
                     "aspx",
@@ -134,11 +143,11 @@
                 "username":""
             },
             "timeouts":{
-                "connect_timeout":1000,
+                "connect_timeout":3000,
                 "domain_name_resolution_timeout":1000,
-                "failed_domain_name_resolution_timeout":3000,
-                "normal_timeout":3000,
-                "open_ended_response_timeout":5000
+                "failed_domain_name_resolution_timeout":60000,
+                "normal_timeout":15000,
+                "open_ended_response_timeout":10000
             },
             "upstream_proxy":{
                 "servers":[],
@@ -271,8 +280,8 @@
                     "png",
                     "css",
                     "svg",
-                    "ttf",
-                    "woff",
+                    "tff",
+                    "woff2",
                     "webp",
                     "ico"
                 ],
@@ -291,7 +300,7 @@
             "by_mime_type":{
                 "show_css":false,
                 "show_flash":true,
-                "show_html":false,
+                "show_html":true,
                 "show_images":false,
                 "show_other_binary":false,
                 "show_other_text":true,
@@ -300,7 +309,7 @@
             },
             "by_request_type":{
                 "hide_items_without_responses":false,
-                "show_only_in_scope_items":false,
+                "show_only_in_scope_items":true,
                 "show_only_parameterized_requests":false
             },
             "by_search":{
