@@ -200,6 +200,7 @@ script
 secret.yml
 server-status
 service
+services
 sessions
 settings
 signin
