@@ -1,0 +1,11 @@
+(graphql\?\w+|\s*\"variables\"\:\{)
+operation\:\"query\"\,\w+\:\{\w+\:\"Name\"\,\w+\:\"(\w+)\"\}
+(api|\/api\/|\/v[1-10]\/|\/\d*\.\d*\/)
+\_\_schema\s+\{
+kind\:\"Operation\"\,name\:\"(\w+)\"
+query\s+(\b[A-Z]\w+)\(
+graphql\/.*(\b[A-Z]\w+)\s+
+\"queryName\"\:\"(\w+)\"
+\"operationName\"\:\"(\w+)\"
+\/\:type\/
+query\s+(\b[A-Z]\w+)

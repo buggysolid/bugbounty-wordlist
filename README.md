@@ -26,6 +26,10 @@ I will use http.txt to see if there is any content there.
 
 Sometimes I may use it recursively.
 
+## hae.txt
+
+A bunch of regular expressions I use with the [HaE extension](https://github.com/gh0stkey/HaE). This may be a bit redudant now with the release of [Burp BChecks](https://github.com/PortSwigger/BChecks). The regular expressions themselves are still useful.  
+
 ## objects.txt
 
 I generally use this if I find some sort of API/RPC type endpoint like /api to discover the resources that the API can interact with.
